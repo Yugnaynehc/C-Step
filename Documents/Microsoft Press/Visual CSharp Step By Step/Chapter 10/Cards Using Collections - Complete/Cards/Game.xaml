@@ -1,0 +1,16 @@
+﻿<Window x:Class="Cards.Game"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Card Game" Height="357" Width="570" WindowStyle="SingleBorderWindow" ResizeMode="NoResize">
+    <Grid>
+    <Label Content="North" Height="23.2766666666667" Margin="33,14,0,0" Name="label1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="52"/>
+    <Label Content="South" Height="23.2766666666667" Margin="161,12,0,0" Name="label2" VerticalAlignment="Top" HorizontalAlignment="Left" Width="41.63"/>
+    <Label Content="East" Height="23.2766666666667" Margin="0,14,223,0" Name="label3" VerticalAlignment="Top" HorizontalAlignment="Right" Width="35.63"/>
+    <Label Content="West" Height="23.2766666666667" Margin="417,14,0,0" Name="label4" VerticalAlignment="Top" HorizontalAlignment="Left" Width="36"/>
+    <TextBox Margin="33,39,0,53" Name="north" HorizontalAlignment="Left" Width="110" AcceptsReturn="True" AcceptsTab="True" IsReadOnly="True" />
+    <TextBox Margin="161,39,0,53" Name="south" HorizontalAlignment="Left" Width="110" AcceptsReturn="True" AcceptsTab="True" IsReadOnly="True" />
+    <TextBox Margin="289,39,0,53" Name="west" HorizontalAlignment="left" Width="110" AcceptsReturn="True" AcceptsTab="True" IsReadOnly="True"   />
+    <TextBox Margin="417,40,0,53" Name="east" HorizontalAlignment="left" Width="110" AcceptsReturn="True" AcceptsTab="True" IsReadOnly="True" />
+    <Button Height="23" Margin="233,0,0,12" Name="deal" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="100" Click="dealClick">Deal</Button>
+    </Grid>
+</Window>

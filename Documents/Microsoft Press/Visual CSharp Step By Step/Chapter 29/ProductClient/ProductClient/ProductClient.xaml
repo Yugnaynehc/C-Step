@@ -1,0 +1,35 @@
+﻿<Window x:Class="ProductClient.Client"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Product Details" Height="360" Width="460" ResizeMode="NoResize">
+    <Grid>
+        <Rectangle Margin="214,0,9,11" Name="rectangle1" Stroke="Black" Height="139" VerticalAlignment="Bottom" />
+        <Label Content="Product ID" Height="23" HorizontalAlignment="Left" Margin="10,10,0,0" Name="label1" VerticalAlignment="Top" Width="120" />
+        <Label Content="Product Name" Height="23" HorizontalAlignment="Left" Margin="10,40,0,0" Name="label2" VerticalAlignment="Top" Width="120" />
+        <Label Content="Supplier ID" Height="23" HorizontalAlignment="Left" Margin="10,70,0,0" Name="label3" VerticalAlignment="Top" Width="120" />
+        <Label Content="Category ID" Height="23" HorizontalAlignment="Left" Margin="10,100,0,0" Name="label4" VerticalAlignment="Top" Width="120" />
+        <Label Content="Quantity per Unit" Height="23" HorizontalAlignment="Left" Margin="10,130,0,0" Name="label5" VerticalAlignment="Top" Width="120" />
+        <Label Content="Unit price" Height="23" HorizontalAlignment="Left" Margin="10,160,0,0" Name="label6" VerticalAlignment="Top" Width="120" />
+        <Label Content="Units in Stock" Height="23" HorizontalAlignment="Left" Margin="10,190,0,0" Name="label7" VerticalAlignment="Top" Width="120" />
+        <Label Content="Units on Order" Height="23" HorizontalAlignment="Left" Margin="10,220,0,0" Name="label8" VerticalAlignment="Top" Width="120" />
+        <Label Content="Reorder Level" Height="23" HorizontalAlignment="Left" Margin="10,250,0,0" Name="label9" VerticalAlignment="Top" Width="120" />
+        <Label Content="Discontinued" Height="23" HorizontalAlignment="Left" Margin="10,280,0,0" Name="label10" VerticalAlignment="Top" Width="120" />
+        <Label Content="Cost Calculator" Height="32" HorizontalAlignment="Right" Margin="0,0,39,110" Name="label11" VerticalAlignment="Bottom" Width="126" FontSize="15"/>
+        <Label Content ="How Many" Height="23" HorizontalAlignment="Right" Margin="0,0,119,89" Name="label12" VerticalAlignment="Bottom" Width="75"/>
+        <Label Content="Total Cost" Height="23" HorizontalAlignment="Right" Margin="0,0,74,21" Name="label13" VerticalAlignment="Bottom" Width="120" />
+        <Label Height="23" Margin="150,40,0,0" Name="productName" VerticalAlignment="Top" HorizontalAlignment="Left" Width="257" />
+        <Label Height="23" HorizontalAlignment="Left" Margin="150,70,0,0" Name="supplierID" VerticalAlignment="Top" Width="120" />
+        <Label Height="23" HorizontalAlignment="Left" Margin="150,100,0,0" Name="categoryID" VerticalAlignment="Top" Width="120" />
+        <Label Height="23" Margin="150,130,31,0" Name="quantityPerUnit" VerticalAlignment="Top" />
+        <Label Height="23" HorizontalAlignment="Left" Margin="150,160,0,0" Name="unitPrice" VerticalAlignment="Top" Width="120" />
+        <Label Height="23" HorizontalAlignment="Left" Margin="150,190,0,0" Name="unitsInStock" VerticalAlignment="Top" Width="120" />
+        <Label Height="23" HorizontalAlignment="Left" Margin="150,220,0,0" Name="unitsOnOrder" VerticalAlignment="Top" Width="120" />
+        <Label Height="23" HorizontalAlignment="Left" Margin="150,250,0,0" Name="reorderLevel" VerticalAlignment="Top" Width="120" />
+        <Label Height="23" HorizontalAlignment="Right" Margin="0,0,21,19" Name="totalCost" VerticalAlignment="Bottom" Width="68" />
+        <TextBox Height="21" Margin="150,14,0,0" Name="productID" VerticalAlignment="Top" HorizontalAlignment="Left" Width="50" />
+        <TextBox Height="21" HorizontalAlignment="Right" Margin="0,0,21,87" Name="howMany" VerticalAlignment="Bottom" Width="68" />
+        <CheckBox Margin="150,285,0,0" Name="discontinued" Height="16" VerticalAlignment="Top" IsEnabled="False" HorizontalAlignment="Left" Width="120"/>
+        <Button Content ="Get Product" Height="23" HorizontalAlignment="Right" Margin="0,12,90,0" Name="getProduct" VerticalAlignment="Top" Width="75" />
+        <Button Content="Calculate Cost" Height="23" HorizontalAlignment="Right" Margin="0,0,99,49" Name="calcCost" VerticalAlignment="Bottom" Width="95"/>
+    </Grid>
+</Window>

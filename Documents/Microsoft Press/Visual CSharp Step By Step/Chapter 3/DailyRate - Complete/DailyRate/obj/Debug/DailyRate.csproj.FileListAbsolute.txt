@@ -1,0 +1,6 @@
+C:\Users\Feather\Documents\Microsoft Press\Visual CSharp Step By Step\Chapter 3\DailyRate - Complete\DailyRate\bin\Debug\DailyRate.exe
+C:\Users\Feather\Documents\Microsoft Press\Visual CSharp Step By Step\Chapter 3\DailyRate - Complete\DailyRate\bin\Debug\DailyRate.pdb
+C:\Users\Feather\Documents\Microsoft Press\Visual CSharp Step By Step\Chapter 3\DailyRate - Complete\DailyRate\obj\Debug\DailyRate.Properties.Resources.resources
+C:\Users\Feather\Documents\Microsoft Press\Visual CSharp Step By Step\Chapter 3\DailyRate - Complete\DailyRate\obj\Debug\DailyRate.csproj.GenerateResource.Cache
+C:\Users\Feather\Documents\Microsoft Press\Visual CSharp Step By Step\Chapter 3\DailyRate - Complete\DailyRate\obj\Debug\DailyRate.exe
+C:\Users\Feather\Documents\Microsoft Press\Visual CSharp Step By Step\Chapter 3\DailyRate - Complete\DailyRate\obj\Debug\DailyRate.pdb

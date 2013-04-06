@@ -1,0 +1,24 @@
+﻿<Window x:Class="MathsOperators.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Maths Operators" Height="382" Width="367">
+    <Grid>
+    <Label Height="31.2766666666667" HorizontalAlignment="Left" Margin="16,20,0,0" Name="lhs" VerticalAlignment="Top" Width="80">left operand</Label>
+    <Label Height="31" HorizontalAlignment="Right" Margin="0,20,16,0" Name="rhs" VerticalAlignment="Top" Width="99">right operand</Label>
+    <TextBox Height="26" HorizontalAlignment="Left" Margin="16,57,0,0" Name="lhsOperand" VerticalAlignment="Top" Width="80" />
+    <TextBox Height="26" HorizontalAlignment="Right" Margin="0,55,21,0" Name="rhsOperand" VerticalAlignment="Top" Width="91" />
+    <StackPanel Margin="108,57,117,160.893333333333" Name="operators">
+		<RadioButton Height="13.2766666666667" Margin="10,10,10,0" Name="addition" VerticalAlignment="Top" >+ Addition</RadioButton>
+		<RadioButton Height="13.2766666666667" Margin="10,10,10,0" Name="subtraction" VerticalAlignment="Top" >- Subtraction</RadioButton>
+		<RadioButton Height="13.2766666666667" Margin="10,10,10,0" Name="multiplication" VerticalAlignment="Top" >* Multiplication</RadioButton>
+		<RadioButton Height="13.2766666666667" Margin="10,10,10,0" Name="division" VerticalAlignment="Top">/ Division</RadioButton>
+		<RadioButton Height="13.2766666666667" Margin="10,10,10,0" Name="remainder" VerticalAlignment="Top">% Remainder</RadioButton>
+    </StackPanel>
+    <Button HorizontalAlignment="Left" Margin="16,187,0,0" Name="calculate" Click="calculateClick" Width="75" Height="23" VerticalAlignment="Top">Calculate</Button>
+    <Label Margin="16,0,0,96" Name="expressionLabel" Height="28" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="130">Expression</Label>
+    <TextBox Height="26" Margin="108,0,99,98" Name="expression" VerticalAlignment="Bottom" IsReadOnly="True" />
+    <Label Height="23.2766666666666" HorizontalAlignment="Left" Margin="16,0,0,64" Name="resultLabel" VerticalAlignment="Bottom" Width="42.63">Result</Label>
+    <TextBox Height="26" Margin="108,0,23,64" Name="result" VerticalAlignment="Bottom" IsReadOnly="True" />
+    <Button Height="23" Margin="16,0,0,28" Name="quit" Click="quitClick" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="75">Quit</Button>
+  </Grid>
+</Window>

@@ -1,0 +1,14 @@
+﻿<Window x:Class="Selection.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Dates" Height="314" Width="373">
+    <Grid>
+        <Label Content="First" HorizontalAlignment="Left" Margin="20,25,0,0" Name="label1" Width="35.63" Height="23.2766666666667" VerticalAlignment="Top"/>
+        <Label Content="Second" Height="23.2766666666667" HorizontalAlignment="Left" Margin="20,62,0,0" Name="label2" VerticalAlignment="Top" Width="52.63"/>
+        <DatePicker Height="30" HorizontalAlignment="Left" Margin="117,25,0,0" Name="first" VerticalAlignment="Top" Width="150" AllowDrop="False" IsDropDownOpen="False" />
+        <DatePicker Height="30" HorizontalAlignment="Left" Margin="117,0,0,185" Name="second" VerticalAlignment="Bottom" Width="150" />
+        <Button Height="23" Content="Compare" HorizontalAlignment="Left" Margin="20,100,0,0" Name="compare" VerticalAlignment="Top" Width="75" Click="compareClick"/>
+        <TextBox Margin="20,131,104,20" Name="info" TextWrapping="WrapWithOverflow" AcceptsReturn="False" IsReadOnly="True" />
+        <Button Height="22" Content="Quit" HorizontalAlignment="Right" Margin="0,0,18,20" Name="quit" VerticalAlignment="Bottom" Width="75" Click="quitClick"/>
+    </Grid>
+</Window>

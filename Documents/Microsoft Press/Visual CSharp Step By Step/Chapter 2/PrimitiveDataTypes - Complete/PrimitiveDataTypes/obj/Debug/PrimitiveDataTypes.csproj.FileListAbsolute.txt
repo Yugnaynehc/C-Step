@@ -1,0 +1,11 @@
+C:\Users\Feather\Documents\Microsoft Press\Visual CSharp Step By Step\Chapter 2\PrimitiveDataTypes - Complete\PrimitiveDataTypes\bin\Debug\PrimitiveDataTypes.exe
+C:\Users\Feather\Documents\Microsoft Press\Visual CSharp Step By Step\Chapter 2\PrimitiveDataTypes - Complete\PrimitiveDataTypes\bin\Debug\PrimitiveDataTypes.pdb
+C:\Users\Feather\Documents\Microsoft Press\Visual CSharp Step By Step\Chapter 2\PrimitiveDataTypes - Complete\PrimitiveDataTypes\obj\Debug\MainWindow.baml
+C:\Users\Feather\Documents\Microsoft Press\Visual CSharp Step By Step\Chapter 2\PrimitiveDataTypes - Complete\PrimitiveDataTypes\obj\Debug\MainWindow.g.cs
+C:\Users\Feather\Documents\Microsoft Press\Visual CSharp Step By Step\Chapter 2\PrimitiveDataTypes - Complete\PrimitiveDataTypes\obj\Debug\App.g.cs
+C:\Users\Feather\Documents\Microsoft Press\Visual CSharp Step By Step\Chapter 2\PrimitiveDataTypes - Complete\PrimitiveDataTypes\obj\Debug\PrimitiveDataTypes_MarkupCompile.cache
+C:\Users\Feather\Documents\Microsoft Press\Visual CSharp Step By Step\Chapter 2\PrimitiveDataTypes - Complete\PrimitiveDataTypes\obj\Debug\PrimitiveDataTypes.g.resources
+C:\Users\Feather\Documents\Microsoft Press\Visual CSharp Step By Step\Chapter 2\PrimitiveDataTypes - Complete\PrimitiveDataTypes\obj\Debug\PrimitiveDataTypes.Properties.Resources.resources
+C:\Users\Feather\Documents\Microsoft Press\Visual CSharp Step By Step\Chapter 2\PrimitiveDataTypes - Complete\PrimitiveDataTypes\obj\Debug\PrimitiveDataTypes.csproj.GenerateResource.Cache
+C:\Users\Feather\Documents\Microsoft Press\Visual CSharp Step By Step\Chapter 2\PrimitiveDataTypes - Complete\PrimitiveDataTypes\obj\Debug\PrimitiveDataTypes.exe
+C:\Users\Feather\Documents\Microsoft Press\Visual CSharp Step By Step\Chapter 2\PrimitiveDataTypes - Complete\PrimitiveDataTypes\obj\Debug\PrimitiveDataTypes.pdb

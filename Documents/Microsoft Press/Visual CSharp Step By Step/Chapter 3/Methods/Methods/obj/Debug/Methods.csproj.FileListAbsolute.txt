@@ -1,0 +1,11 @@
+C:\Users\Feather\Documents\Microsoft Press\Visual CSharp Step By Step\Chapter 3\Methods\Methods\bin\Debug\Methods.exe
+C:\Users\Feather\Documents\Microsoft Press\Visual CSharp Step By Step\Chapter 3\Methods\Methods\bin\Debug\Methods.pdb
+C:\Users\Feather\Documents\Microsoft Press\Visual CSharp Step By Step\Chapter 3\Methods\Methods\obj\Debug\MainWindow.baml
+C:\Users\Feather\Documents\Microsoft Press\Visual CSharp Step By Step\Chapter 3\Methods\Methods\obj\Debug\MainWindow.g.cs
+C:\Users\Feather\Documents\Microsoft Press\Visual CSharp Step By Step\Chapter 3\Methods\Methods\obj\Debug\App.g.cs
+C:\Users\Feather\Documents\Microsoft Press\Visual CSharp Step By Step\Chapter 3\Methods\Methods\obj\Debug\Methods_MarkupCompile.cache
+C:\Users\Feather\Documents\Microsoft Press\Visual CSharp Step By Step\Chapter 3\Methods\Methods\obj\Debug\Methods.g.resources
+C:\Users\Feather\Documents\Microsoft Press\Visual CSharp Step By Step\Chapter 3\Methods\Methods\obj\Debug\Methods.Properties.Resources.resources
+C:\Users\Feather\Documents\Microsoft Press\Visual CSharp Step By Step\Chapter 3\Methods\Methods\obj\Debug\Methods.csproj.GenerateResource.Cache
+C:\Users\Feather\Documents\Microsoft Press\Visual CSharp Step By Step\Chapter 3\Methods\Methods\obj\Debug\Methods.exe
+C:\Users\Feather\Documents\Microsoft Press\Visual CSharp Step By Step\Chapter 3\Methods\Methods\obj\Debug\Methods.pdb

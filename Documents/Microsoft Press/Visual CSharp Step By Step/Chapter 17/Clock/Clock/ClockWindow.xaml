@@ -1,0 +1,17 @@
+﻿<Window x:Class="Delegates.ClockWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Times Around the World" Height="342" Width="509">
+    <Grid>
+        <TextBox Height="42" Margin="217,25,0,0" Name="localTimeDisplay" VerticalAlignment="Top" HorizontalAlignment="Left" Width="247" IsReadOnly="True" FontSize="38" FontFamily="Courier New" TextAlignment="Center" >00:00:00</TextBox>
+        <TextBox FontFamily="Courier New" FontSize="38" Height="42" HorizontalAlignment="Left" IsReadOnly="True" Margin="217,81,0,0" Name="londonTimeDisplay" Text="00:00:00" TextAlignment="Center" VerticalAlignment="Top" Width="247" />
+        <TextBox FontFamily="Courier New" FontSize="38" Height="42" HorizontalAlignment="Left" IsReadOnly="True" Margin="217,139,0,0" Name="newYorkTimeDisplay" Text="00:00:00" TextAlignment="Center" VerticalAlignment="Top" Width="247" />
+        <TextBox FontFamily="Courier New" FontSize="38" Height="42" HorizontalAlignment="Left" IsReadOnly="True" Margin="217,195,0,0" Name="tokyoTimeDisplay" Text="00:00:00" TextAlignment="Center" VerticalAlignment="Top" Width="247" />
+        <Button HorizontalAlignment="Left" Margin="154,258,0,0" Name="start" Width="75" Height="23" VerticalAlignment="Top" Click="startClick">Start</Button>
+        <Button HorizontalAlignment="Left" Margin="268,258,0,0" Name="stop" Width="75" Height="23" VerticalAlignment="Top" Click="stopClick" IsEnabled="False">Stop</Button>
+        <Label Content="Local Time" Height="42" HorizontalAlignment="Left" Margin="12,25,0,0" Name="label1" VerticalAlignment="Top" Width="190" FontSize="26" />
+        <Label Content="London" FontSize="26" Height="42" HorizontalAlignment="Left" Margin="12,82,0,0" Name="label2" VerticalAlignment="Top" Width="190" />
+        <Label Content="New York" FontSize="26" Height="42" HorizontalAlignment="Left" Margin="12,138,0,0" Name="label3" VerticalAlignment="Top" Width="190" />
+        <Label Content="Tokyo" FontSize="26" Height="42" HorizontalAlignment="Left" Margin="12,195,0,0" Name="label4" VerticalAlignment="Top" Width="190" />
+    </Grid>
+</Window>
